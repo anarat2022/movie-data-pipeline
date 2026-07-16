@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_movies
+    columns:
+      - name: movie_id
+        tests:
+          - unique
+          - not_null
+      - name: title
+        tests:
+          - not_null
+
+  - name: genre_performance
+    columns:
+      - name: genre_id
+        tests:
+          - unique
+          - not_null

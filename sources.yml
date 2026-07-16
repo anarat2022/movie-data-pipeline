@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: moviepipeline-de
+    schema: Raw
+    tables:
+      - name: movies_raw
